@@ -5,8 +5,6 @@ import {
   MapPin,
   Phone,
   Send,
-  Twitch,
-  Twitter,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
@@ -56,7 +54,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Email</h4>
                   <a
-                    href="mailto:hello@gmail.com"
+                    href="mailto:abdisaawel82@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     abdisaawel82@gmail.com
@@ -92,18 +90,20 @@ export const ContactSection = () => {
 
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
-              <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
-                  <Linkedin />
+              <div className="flex space-x-4">
+                <a 
+                  href="https://www.linkedin.com/in/abdisa-awel-92b963383/" 
+                  target="_blank"
+                  className="p-3 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all duration-300"
+                >
+                  <Linkedin className="h-5 w-5" />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitter />
-                </a>
-                <a href="#" target="_blank">
-                  <Instagram />
-                </a>
-                <a href="#" target="_blank">
-                  <Twitch />
+                <a 
+                  href="https://www.instagram.com/hamzish7645/" 
+                  target="_blank"
+                  className="p-3 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all duration-300"
+                >
+                  <Instagram className="h-5 w-5" />
                 </a>
               </div>
             </div>
