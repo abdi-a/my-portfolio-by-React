@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "MWU SHOP",
+    description: "A beautiful e-commerce platform using React and Tailwind.",
     image: "/projects/project1.png",
     tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://mwu-shop.web.app/",
+    githubUrl: "https://github.com/abdi-a/MWU-SHOP",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "PHARMACY WEBSITE",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Interactive pharmacy website with product visualization and filtering capabilities.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["TypeScript", "Next.js", "TailwindCSS"],
+    demoUrl: "https://clinquant-clafoutis-cfaacc.netlify.app/",
+    githubUrl: "https://github.com/abdi-a/Pharmacy-website",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "LIBRARY MANAGEMENT SYSTEM",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Full-featured library management system with user authentication and book inventory management.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Node.js", "MongoDB"],
+    demoUrl: "https://profound-valkyrie-25da6a.netlify.app/",
+    githubUrl: "https://github.com/abdi-a/School-library-management-system",
   },
 ];
 
@@ -42,8 +42,7 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
+          Here are some of my recent projects. 
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -100,7 +99,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/abdi-a"
           >
             Check My Github <ArrowRight size={16} />
           </a>
