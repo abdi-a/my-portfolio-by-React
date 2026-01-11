@@ -12,21 +12,16 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Get to know more about my journey, skills, and passion for technology
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              Hi there! I'm Abdisa Awel, a passionate third year Computer Science student at Madda Walabu University, diving deep into the world of full-stack development
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
-            </p>
+             My journey into coding began when I wanted to create solutions that bridge technology and everyday life. Since then, I’ve been hooked on turning ideas into functional, digital experiences
+            As a second-year student, I’m constantly learning frontend (HTML, CSS, JavaScript, React) and backend (Node.js, databases) technologies.</p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
@@ -44,48 +39,20 @@ export const AboutSection = () => {
           </div>
 
           <div className="grid grid-cols-1 gap-6">
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Code className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
-                  <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
-                  </p>
-                </div>
-              </div>
+            <div className="p-6 rounded-2xl bg-card border border-border/50 hover:border-primary/50 transition-colors card-hover">
+              <User className="w-10 h-10 text-primary mb-4" />
+              <h3 className="text-xl font-bold mb-2">Student</h3>
+              <p className="text-muted-foreground">
+                3rd Year CS Student at Madda Walabu University
+              </p>
             </div>
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <User className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
-                  <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
-                </div>
-
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
-                  <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
-                  </p>
-                </div>
-              </div>
+            
+            <div className="p-6 rounded-2xl bg-card border border-border/50 hover:border-primary/50 transition-colors card-hover">
+              <Code className="w-10 h-10 text-primary mb-4" />
+              <h3 className="text-xl font-bold mb-2">Full Stack</h3>
+              <p className="text-muted-foreground">
+                React, Node.js, and Modern Web Technologies
+              </p>
             </div>
           </div>
         </div>
