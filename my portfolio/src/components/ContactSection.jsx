@@ -105,6 +105,26 @@ export const ContactSection = () => {
                 >
                   <Instagram className="h-5 w-5" />
                 </a>
+                <a 
+                  href="https://www.tiktok.com/@abdi654576n" 
+                  target="_blank"
+                  className="p-3 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all duration-300"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="h-5 w-5"
+                  >
+                    <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>
