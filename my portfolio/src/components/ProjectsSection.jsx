@@ -1,11 +1,14 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import mwuShopImg from "../assets/mwu shop.jfif";
+import pharmacyImg from "../assets/pharmacy store.jfif";
+import libraryImg from "../assets/libraray management system.jfif";
 
 const projects = [
   {
     id: 1,
     title: "MWU SHOP",
     description: "A beautiful e-commerce platform using React and Tailwind.",
-    image: "/projects/project1.png",
+    image: mwuShopImg,
     tags: ["React", "TailwindCSS", "Supabase"],
     demoUrl: "https://mwu-shop.web.app/",
     githubUrl: "https://github.com/abdi-a/MWU-SHOP",
@@ -15,7 +18,7 @@ const projects = [
     title: "PHARMACY WEBSITE",
     description:
       "Interactive pharmacy website with product visualization and filtering capabilities.",
-    image: "/projects/project2.png",
+    image: pharmacyImg,
     tags: ["TypeScript", "Next.js", "TailwindCSS"],
     demoUrl: "https://clinquant-clafoutis-cfaacc.netlify.app/",
     githubUrl: "https://github.com/abdi-a/Pharmacy-website",
@@ -25,7 +28,7 @@ const projects = [
     title: "LIBRARY MANAGEMENT SYSTEM",
     description:
       "Full-featured library management system with user authentication and book inventory management.",
-    image: "/projects/project3.png",
+    image: libraryImg,
     tags: ["React", "Node.js", "MongoDB"],
     demoUrl: "https://profound-valkyrie-25da6a.netlify.app/",
     githubUrl: "https://github.com/abdi-a/School-library-management-system",
