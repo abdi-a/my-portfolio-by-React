@@ -47,12 +47,12 @@ export const ContactSection = () => {
             </h3>
 
             <div className="space-y-6 justify-center">
-              <div className="flex items-start space-x-4">
+              <div className="flex items-center space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
-                  <h4 className="font-medium"> Email</h4>
+                 
                   <a
                     href="mailto:abdisaawel82@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
@@ -61,26 +61,26 @@ export const ContactSection = () => {
                   </a>
                 </div>
               </div>
-              <div className="flex items-start space-x-4">
+              <div className="flex items-center space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Phone className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
-                  <h4 className="font-medium"> Phone</h4>
+                 
                   <a
-                    href="tel:+11234567890"
+                    href="tel:0938890645"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                    0938890645
                   </a>
                 </div>
               </div>
-              <div className="flex items-start space-x-4">
+              <div className="flex items-center space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
-                  <h4 className="font-medium"> Location</h4>
+             
                   <a className="text-muted-foreground hover:text-primary transition-colors">
                     Ethiopia,Addis Ababa
                   </a>
@@ -99,7 +99,7 @@ export const ContactSection = () => {
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a 
-                  href="https://www.instagram.com/hamzish7645/" 
+                  href="https://www.instagram.com/abdisaawel38/" 
                   target="_blank"
                   className="p-3 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all duration-300"
                 >
@@ -130,7 +130,7 @@ export const ContactSection = () => {
                   name="name"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="Pedro Machado..."
+                  placeholder="abdisa awel..."
                 />
               </div>
 
@@ -148,7 +148,7 @@ export const ContactSection = () => {
                   name="email"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="john@gmail.com"
+                  placeholder="abdisaawel82@gmail.com"
                 />
               </div>
 
