@@ -29,8 +29,8 @@ export const HeroSection = () => {
             </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto md:mx-0 opacity-0 animate-fade-in-delay-3 text-justify md:text-left">
-            Passionate about creating innovative web solutions with modern technologies. Working on React, Node.js, and MongoDB.
+          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+         Passionate about creating innovative web solutions with modern technologies. working on React, Node.js,Mongodb.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
