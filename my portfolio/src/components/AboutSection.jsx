@@ -2,24 +2,24 @@ import { Briefcase, Code, User } from "lucide-react";
 
 export const AboutSection = () => {
   return (
-    <section id="about" className="py-24 px-4 relative">
+    <section id="about" className="py-16 md:py-24 px-4 relative">
       {" "}
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold mb-8 md:mb-12 text-center">
           About <span className="text-primary"> Me</span>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
               Get to know more about my journey, skills, and passion for technology
             </h3>
 
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-justify">
               Hi there! I'm Abdisa Awel, a passionate third year Computer Science student at Madda Walabu University, diving deep into the world of full-stack development
             </p>
 
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-justify">
              My journey into coding began when I wanted to create solutions that bridge technology and everyday life. Since then, I’ve been hooked on turning ideas into functional, digital experiences
             As a second-year student, I’m constantly learning frontend (HTML, CSS, JavaScript, React) and backend (Node.js, databases) technologies.</p>
 

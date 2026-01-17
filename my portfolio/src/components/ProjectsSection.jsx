@@ -9,7 +9,7 @@ const projects = [
     title: "MWU SHOP",
     description: "A beautiful e-commerce platform using React and Tailwind.",
     image: mwuShopImg,
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["React", "CSS","MYSQL"],
     demoUrl: "https://mwu-shop.web.app/",
     githubUrl: "https://github.com/abdi-a/MWU-SHOP",
   },
@@ -19,7 +19,7 @@ const projects = [
     description:
       "Interactive pharmacy website with product visualization and filtering capabilities.",
     image: pharmacyImg,
-    tags: ["TypeScript", "Next.js", "TailwindCSS"],
+    tags: ["HTML","CSS","Javascript"],
     demoUrl: "https://clinquant-clafoutis-cfaacc.netlify.app/",
     githubUrl: "https://github.com/abdi-a/Pharmacy-website",
   },
@@ -29,7 +29,7 @@ const projects = [
     description:
       "Full-featured library management system with user authentication and book inventory management.",
     image: libraryImg,
-    tags: ["React", "Node.js", "MongoDB"],
+    tags: ["HTML","CSS", "Javascript"],
     demoUrl: "https://profound-valkyrie-25da6a.netlify.app/",
     githubUrl: "https://github.com/abdi-a/School-library-management-system",
   },
@@ -37,14 +37,14 @@ const projects = [
 
 export const ProjectsSection = () => {
   return (
-    <section id="projects" className="py-24 px-4 relative">
+    <section id="projects" className="py-16 md:py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           {" "}
           Featured <span className="text-primary"> Projects </span>
         </h2>
 
-        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+        <p className="text-center text-muted-foreground mb-8 md:mb-12 max-w-2xl mx-auto">
           Here are some of my recent projects. 
         </p>
 
