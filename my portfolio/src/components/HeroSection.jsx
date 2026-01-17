@@ -29,7 +29,7 @@ export const HeroSection = () => {
             </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto md:mx-0 text-justify opacity-0 animate-fade-in-delay-3">
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto md:mx-0 opacity-0 animate-fade-in-delay-3">
          Passionate about creating innovative web solutions with modern technologies. Working on React, Node.js, and MongoDB.
           </p>
 
